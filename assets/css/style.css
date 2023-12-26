@@ -1,0 +1,131 @@
+/** Variables **/
+
+:root {
+    /* app-fonts */
+    --app-font-family: Poppins, sans-serif;
+    --app-font-family-second: Roboto;
+    --app-font-size: 16px;
+    --app-font-weight: 300;
+    /* app-color */
+    --app-color-primary: #F11D64;
+    --app-color-primary-opacited: rgba(116, 81, 235, 0.08);
+    --app-color-primary-opacited-ligth: rgba(116, 81, 235, 0.12);
+    --app-color-accent: "";
+    --app-color-gray: "";
+    --app-color-text-primary: #000;
+    --app-color-text-accent: #f37;
+    --app-color-text-white: "";
+    --app-color-text-gray: rgb(97, 97, 97);
+    --app-color-border-gray-ligth: #dad9dc;
+    --app-color-border-gray-high-ligth: rgba(0, 0, 0, 0.04);
+    --app-color-border-gray-high-ligth-2: rgba(0, 0, 0, 0.42);
+    --app-color-background-gray-high-ligth: rgba(0, 0, 0, 0.04);
+    --app-color-ligth: #FFF;
+    --app-color-purple-dark: rgb(39, 26, 56);
+    --app-color-icon-dark: rgba(0, 0, 0, 0.54);
+    /* app-background */
+    --app-background-default: #1d1f24;
+    --app-color-background-gray-ligth: rgb(245, 245, 245);
+    --app-color-background-blue-ligth: rgb(236, 247, 253);
+    --app-color-background-purple-ligth: rgb(178 157 251 / 5%);
+    /* app-border-raduis */
+    --app-border-button-raduis-default: 4px;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    line-height: 1.15;
+    -webkit-text-size-adjust: 100%;
+}
+
+body {
+    margin: 0;
+    font-family: var(--app-font-family);
+    font-size: 16px;
+    scroll-behavior: smooth;
+}
+
+.site__body__inner {
+    margin-bottom: calc(100vh - 80px);
+}
+
+.overflow-active {
+    overflow: hidden;
+}
+
+.overflow-active .site__header .bloc-menu {
+    margin-right: 17px;
+}
+
+.site__header {
+    transition: 0s;
+}
+
+.site__body__inner {
+    position: relative;
+    z-index: 2;
+    background: #fff;
+    margin-bottom: calc(100vh - 100px);
+}
+
+@media (max-width: 1440px) {
+    .site__body__inner {
+        margin-bottom: calc(100vh - 80px);
+    }
+}
+
+svg {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+a {
+    background-color: initial;
+    outline: none;
+    color: var(--app-color-text-accent);
+}
+
+.section-default {
+    width: 100%;
+}
+
+
+/** buttons **/
+
+.reset-Button {
+    border: none;
+    margin: 0;
+    padding: 0;
+    width: auto;
+    overflow: visible;
+    background: transparent;
+    /* inherit font & color from ancestor */
+    color: inherit;
+    font: inherit;
+    /* Normalize `line-height`. Cannot be changed from `normal` in Firefox 4+. */
+    line-height: normal;
+    /* Corrects font smoothing for webkit */
+    -webkit-font-smoothing: inherit;
+    -moz-osx-font-smoothing: inherit;
+    /* Corrects inability to style clickable `input` types in iOS */
+    appearance: none;
+    -webkit-appearance: none;
+}
+
+
+/** titles ***/
+
+h1 {
+    font-size: 2em;
+    margin: .67em 0;
+}
+
+
+/*** configure animations **/
+
+.animate_enter.animate__animated {
+    --animate-duration: 0.85s;
+}

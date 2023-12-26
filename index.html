@@ -1,0 +1,1249 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+    <link rel="stylesheet" href="assets/css/header.css">
+    <link rel="stylesheet" href="assets/css/footer.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/section-type.css">
+    <link rel="stylesheet" href="assets/css/sidebar.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+
+    <!-- Specific of current page -->
+    <link rel="stylesheet" href="https://cdn.leafletjs.com/leaflet-0.7.3/leaflet.css" />
+    <link rel="stylesheet" href="assets/css/index.css">
+    <title>Accueil</title>
+</head>
+
+<body class="body_inner overflow-hidden">
+    <nav class="site__sidebar">
+        <span class="site__sidebar__item site__sidebar__item--active" data-goto="0">
+        </span>
+        <span class="site__sidebar__item" data-goto="1">
+        </span>
+        <span class="site__sidebar__item" data-goto="2">
+        </span>
+        <span class="site__sidebar__item" data-goto="3">
+        </span>
+    </nav>
+
+    <div class="site__body__overlay">
+    </div>
+    <div class="side_bar">
+        <div class="projects tab_item">
+            <div class="projects__item style-PrBog" id="style-PrBog">
+                <span class=" background-picture" role="img">
+                    <span class="visuallyhidden">
+                    </span>
+
+                </span>
+                <a href="#" class="projects__item__link">
+                    <span class="projects__item__title">
+                        Projet Adsearch
+                    </span>
+                    <span class="projects__item__subtitle">
+                        Positionner le site Adsearch
+                        <br>
+                        comme acteur majeur du recrutement
+                    </span>
+                </a>
+            </div>
+            <div class="projects__item style-ZiENg" id="style-ZiENg">
+                <span class=" background-picture" role="img">
+                    <span class="visuallyhidden">
+                    </span>
+
+                </span>
+                <a href="#" class="projects__item__link">
+                    <span class="projects__item__title">
+                        Projet Atscaf
+                    </span>
+                    <span class="projects__item__subtitle">
+                        Faire rêver l'internaute
+                        <br>
+                        pour lui donner envie d'adhérer à l'ATSCAF
+                    </span>
+                </a>
+            </div>
+            <div class="projects__item style-bcrDN" id="style-bcrDN">
+                <span class=" background-picture" role="img">
+                    <span class="visuallyhidden">
+                    </span>
+
+                </span>
+                <a href="#" class="projects__item__link">
+                    <span class="projects__item__title">
+                        Projet CMP AVOCATS
+                    </span>
+                    <span class="projects__item__subtitle">
+                        Valoriser l'expertise
+                        <br>
+                        du cabinet CMP Avocats
+                    </span>
+                </a>
+            </div>
+            <div class="projects__item style-E1q2s" id="style-E1q2s">
+                <span class=" background-picture" role="img">
+                    <span class="visuallyhidden">
+                    </span>
+                </span>
+                <a href="#" class="projects__item__link">
+                    <span class="projects__item__title">
+                        Projet dB Vib
+                    </span>
+                    <span class="projects__item__subtitle">
+                        Faire de son site le premier
+                        <br>
+                        apporteur d'affaires du groupe dB Vib
+                    </span>
+                </a>
+            </div>
+        </div>
+        <div class="site-contact-form tab_item">
+            <nav class="contact__nav">
+                <div class="contact__nav__wrapper">
+                    <span class="contact__nav__item contact__nav__item--active contact_choices__item active" data-goto="1">
+                        J'ai un projet
+                    </span>
+                    <span class="contact__nav__item contact_choices__item" data-goto="2">
+                        J'ai une question
+                    </span>
+                    <span class="contact__nav__item contact_choices__item" data-goto="3">
+                        Je postule
+                    </span>
+                </div>
+                <div class="contact__nav__wrapper contact__nav__wrapper--mobile input">
+                    <div class="choices" role="listbox" data-type="select-one" tabindex="0" aria-haspopup="true" aria-expanded="false">
+                        <div class="choices__inner">
+                            <select class="choices__input is-hidden" tabindex="-1" aria-hidden="true" data-choice="active">
+                                <option value="1" selected="">
+                                    J'ai un projet
+                                </option>
+                            </select>
+                            <div class="choices__list choices__list--single">
+                                <div class="choices__item choices__item--selectable" data-item="" data-id="1" aria-selected="true">
+                                    J'ai un projet
+                                </div>
+                            </div>
+                        </div>
+                        <div class="choices__list choices__list--dropdown" aria-expanded="false">
+                            <div class="choices__list" dir="ltr" role="listbox">
+                                <div class="choices__item contact_choices__item choices__item--selectable is-highlighted" data-id="1" role="option" aria-selected="true">
+                                    J'ai un projet
+                                </div>
+                                <div class="choices__item contact_choices__item choices__item--selectable" data-id="2" role="option">
+                                    J'ai une question
+                                </div>
+                                <div class="choices__item contact_choices__item choices__item--selectable" data-id="3" role="option">
+                                    Je postule
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+            <div class="contact__forms">
+                <div class="contact__forms__item contact__forms__item--active show" data-id="1">
+                    <h2 class="contact__forms__item__title">
+                        J'ai un projet
+                    </h2>
+                    <div class="contact__forms__item__form">
+                        <div class="sidebar-form">
+                            <form method="post" class="sidebar-form-form init">
+                                <div class="input input--medium">
+                                    <p>
+                                        <label for="nom">
+                                            Nom
+                                        </label>
+                                        <br>
+                                        <span class="sidebar-form-form-control-wrap">
+                                            <input size="40" class="sidebar-form-form-control sidebar-form-text"
+                                                id="nom" aria-required="true" aria-invalid="false" type="text"
+                                                name="nom">
+                                        </span>
+                                    </p>
+                                </div>
+                                <div class="input input--medium">
+                                    <p>
+                                        <label for="company">
+                                            Entreprise
+                                        </label>
+                                        <br>
+                                        <span class="sidebar-form-form-control-wrap">
+                                            <input size="40" class="sidebar-form-form-control sidebar-form-text"
+                                                id="company" aria-required="true" aria-invalid="false" type="text"
+                                                name="company">
+                                        </span>
+                                    </p>
+                                </div>
+                                <div class="input input--medium">
+                                    <p>
+                                        <label for="email">
+                                            Adresse email
+                                        </label>
+                                        <br>
+                                        <span class="sidebar-form-form-control-wrap">
+                                            <input size="40"
+                                                class="sidebar-form-form-control sidebar-form-text sidebar-form-email sidebar-form-validates-as-email"
+                                                id="email" aria-required="true" aria-invalid="false" type="email"
+                                                name="email">
+                                        </span>
+                                    </p>
+                                </div>
+                                <div class="input input--medium">
+                                    <p>
+                                        <label for="1phone">
+                                            Téléphone
+                                        </label>
+                                        <br>
+                                        <span class="sidebar-form-form-control-wrap">
+                                            <input size="40"
+                                                class="sidebar-form-form-control sidebar-form-text sidebar-form-tel"
+                                                id="1phone" aria-required="true" aria-invalid="false" type="tel"
+                                                name="phone">
+                                        </span>
+                                    </p>
+                                </div>
+                                <div class="input input--large">
+                                    <p>
+                                        <label for="message">
+                                            Description
+                                        </label>
+                                        <br>
+                                        <span class="sidebar-form-form-control-wrap">
+                                            <textarea cols="40" rows="10"
+                                                class="sidebar-form-form-control sidebar-form-textarea" id="message"
+                                                aria-required="true" aria-invalid="false"
+                                                placeholder="Décrivez votre projet et ses objectifs" name="message">
+                              </textarea>
+                                        </span>
+                                    </p>
+                                </div>
+                                <div class="input input--submit">
+                                    <p>
+                                        <input class="sidebar-form-form-control has-spinner sidebar-form-submit" type="submit" value="Envoyer mon message">
+                                        <span class="sidebar-form-spinner">
+                                        </span>
+                                    </p>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact__forms__item" data-id="2">
+                    <h2 class="contact__forms__item__title">
+                        J'ai une question
+                    </h2>
+                    <div class="contact__forms__item__form">
+                        <div class="sidebar-form">
+                            <form class="sidebar-form-form init">
+                                <div class="input input--medium">
+                                    <p>
+                                        <label for="nom">
+                                            Nom
+                                        </label>
+                                        <br>
+                                        <span class="sidebar-form-form-control-wrap">
+                                            <input size="40" class="sidebar-form-form-control sidebar-form-text"
+                                                id="nom" aria-required="true" aria-invalid="false" type="text"
+                                                name="nom">
+                                        </span>
+                                    </p>
+                                </div>
+                                <div class="input input--medium">
+                                    <p>
+                                        <label for="email">
+                                            Adresse email
+                                        </label>
+                                        <br>
+                                        <span class="sidebar-form-form-control-wrap" data-name="email">
+                                            <input size="40"
+                                                class="sidebar-form-form-control sidebar-form-text sidebar-form-email sidebar-form-validates-as-email"
+                                                aria-required="true" aria-invalid="false" type="email" name="email">
+                                        </span>
+                                    </p>
+                                </div>
+                                <div class="input input--large">
+                                    <p>
+                                        <label for="subject">
+                                            Sujet
+                                        </label>
+                                        <br>
+                                        <span class="sidebar-form-form-control-wrap" data-name="subject">
+                                            <input size="40" class="sidebar-form-form-control sidebar-form-text"
+                                                id="subject" aria-required="true" aria-invalid="false" type="text"
+                                                name="subject">
+                                        </span>
+                                    </p>
+                                </div>
+                                <div class="input input--large">
+                                    <p>
+                                        <label for="message">
+                                            Description
+                                        </label>
+                                        <br>
+                                        <span class="sidebar-form-form-control-wrap" data-name="message">
+                                            <textarea cols="40" rows="10"
+                                                class="sidebar-form-form-control sidebar-form-textarea" id="message"
+                                                aria-required="true" aria-invalid="false"
+                                                placeholder="Ecrivez ici votre question." name="message">
+                              </textarea>
+                                        </span>
+                                    </p>
+                                </div>
+                                <div class="input input--submit">
+                                    <p>
+                                        <input class="sidebar-form-form-control has-spinner sidebar-form-submit" type="submit" value="Envoyer mon message">
+                                        <span class="sidebar-form-spinner">
+                                        </span>
+                                    </p>
+                                </div>
+
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact__forms__item" data-id="3">
+                    <h2 class="contact__forms__item__title">
+                        Je postule
+                    </h2>
+                    <div class="contact__forms__item__form">
+                        <div>
+                            <form method="post" enctype="multipart/form-data" class="sidebar-form-form">
+                                <div class="input input--medium">
+                                    <p>
+                                        <label for="nom">
+                                            Nom
+                                        </label>
+                                        <br>
+                                        <span class="sidebar-form-form-control-wrap">
+                                            <input size="40" class="sidebar-form-form-control sidebar-form-text"
+                                                id="nom" aria-required="true" aria-invalid="false" type="text"
+                                                name="nom">
+                                        </span>
+                                    </p>
+                                </div>
+                                <div class="input input--medium">
+                                    <p>
+                                        <label for="email">
+                                            Adresse email
+                                        </label>
+                                        <br>
+                                        <span class="sidebar-form-form-control-wrap">
+                                            <input size="40"
+                                                class="sidebar-form-form-control sidebar-form-text sidebar-form-email sidebar-form-validates-as-email"
+                                                id="email" aria-required="true" aria-invalid="false" type="email"
+                                                name="email">
+                                        </span>
+                                    </p>
+                                </div>
+                                <div class="input input--medium">
+                                    <p>
+                                        <label for="phone">
+                                            Téléphone
+                                        </label>
+                                        <br>
+                                        <span class="sidebar-form-form-control-wrap">
+                                            <input size="40"
+                                                class="sidebar-form-form-control sidebar-form-text sidebar-form-tel sidebar-form-validates-as-tel"
+                                                id="phone" aria-required="true" aria-invalid="false" type="tel"
+                                                name="phone">
+                                        </span>
+                                    </p>
+                                </div>
+                                <div class="input input--medium">
+                                    <label for="tye">
+                                        Poste recherché
+                                    </label>
+                                    <div class="choices" role="listbox" data-type="select-one" tabindex="0">
+                                        <div class="choices__inner">
+                                            <select class="sidebar-form-form-control sidebar-form-select choices__input" id="tye" aria-invalid="false" name="type" tabindex="-1" aria-hidden="true" data-choice="active" style="display: none;">
+                                                <option value="Développeur" selected="">
+                                                    Développeur
+                                                </option>
+                                            </select>
+                                            <div class="choices__list choices__list--single">
+                                                <div class="choices__item choices__item--selectable " data-id="1" data-value="Développeur" aria-selected="true">
+                                                    Développeur
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="choices__list choices__list--dropdown" aria-expanded="false">
+                                            <div class="choices__list" role="listbox">
+                                                <div class="choices__item choices__item--selectable is-highlighted" data-select-text="Press to select" data-id="1" data-value="Développeur" role="option" aria-selected="true">
+                                                    Développeur
+                                                </div>
+                                                <div class="choices__item choices__item--selectable" data-select-text="Press to select" data-id="2" data-value="Webdesigner" role="option">
+                                                    Webdesigner
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="input input--large">
+                                    <p>
+                                        <label for="file">
+                                            CV et autres informations
+                                        </label>
+                                        <br>
+                                        <span class="sidebar-form-form-control-wrap" data-name="file">
+                                            <input size="40" class="sidebar-form-form-control sidebar-form-file"
+                                                id="file" accept="audio/*,video/*,image/*" aria-required="true"
+                                                aria-invalid="false" type="file" name="file">
+                                        </span>
+                                        <br>
+                                        <span>
+                                        </span>
+                                    </p>
+                                </div>
+                                <div class="input input--large">
+                                    <p>
+                                        <label for="message">
+                                            Description
+                                        </label>
+                                        <br>
+                                        <span class="sidebar-form-form-control-wrap">
+                                            <textarea cols="40" rows="10"
+                                                class="sidebar-form-form-control sidebar-form-textarea" id="message"
+                                                aria-required="true" aria-invalid="false"
+                                                placeholder="Décrivez votre projet et ses objectifs" name="message">
+                              </textarea>
+                                        </span>
+                                    </p>
+                                </div>
+                                <div class="input input--submit">
+                                    <p>
+                                        <input class="sidebar-form-form-control has-spinner sidebar-form-submit" type="submit" value="Envoyer mon message">
+                                        <span class="sidebar-form-spinner">
+                                        </span>
+                                    </p>
+                                </div>
+
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+    <header class="site__header" role="banner">
+        <div class="site__header__logo">
+            <a href="#">
+                <!--?xml version="1.0" encoding="UTF-8" standalone="no"?-->
+                <svg xmlns="http://www.w3.org/2000/svg" version="1.1" id="Calque_1" x="0px" y="0px" viewBox="0 0 938.79999 214.60001" xml:space="preserve">
+                    <style type="text/css" id="style3">
+                        .st0 {
+                            fill: #fff;
+                        }
+
+                        .st1 {
+                            opacity: 0.3;
+                        }
+                    </style>
+                    <g id="g5" transform="translate(-217.6,-276.6)">
+                        <polygon points="563.6,435 588.8,409.8 664.3,486.3 614,486.3 " id="polygon7" class="st4">
+                        </polygon>
+                        <polygon points="665.2,333.4 614.1,333.4 563.6,383.9 563.6,435 " id="polygon9" class="st4">
+                        </polygon>
+                    </g>
+                    <polygon class="st1" points="599.3,420.4 588.8,409.8 563.6,435 563.6,435 " id="polygon11"
+                        style="opacity:0.3" transform="translate(-217.6,-276.6)"></polygon>
+                    <polygon class="st2" points="563.6,435 588.8,409.8 664.3,486.3 614,486.3 " id="polygon13"
+                        style="fill:none" transform="translate(-217.6,-276.6)"></polygon>
+                    <g id="g15" transform="translate(-217.6,-276.6)">
+                        <path class="st0"
+                            d="m 790.7,342.4 c -13.1,-8.9 -28.9,-14.2 -45.9,-14.2 -45,0 -81.5,36.6 -81.5,81.5 0,45 36.6,81.5 81.5,81.5 17,0 32.8,-5.2 45.9,-14.2 l 0,9.1 35.7,0 0,-152.7 -35.7,0 0,9 z m -45.9,113.3 c -25.3,0 -45.9,-20.6 -45.9,-45.9 0,-25.3 20.6,-45.9 45.9,-45.9 25.3,0 45.9,20.6 45.9,45.9 0,25.3 -20.6,45.9 -45.9,45.9 z"
+                            id="path17"></path>
+                        <path class="st0"
+                            d="m 462.2,342.4 c -13.1,-8.9 -28.9,-14.2 -45.9,-14.2 -45,0 -81.5,36.6 -81.5,81.5 0,45 36.6,81.5 81.5,81.5 17,0 32.8,-5.2 45.9,-14.2 l 0,9.1 35.7,0 0,-152.7 -35.7,0 0,9 z m -45.8,113.3 c -25.3,0 -45.9,-20.6 -45.9,-45.9 0,-25.3 20.6,-45.9 45.9,-45.9 25.3,0 45.9,20.6 45.9,45.9 -0.1,25.3 -20.6,45.9 -45.9,45.9 z"
+                            id="path19"></path>
+                        <polygon class="st0" points="995,392.6 995,486.3 1030.7,486.3 1030.9,392.6 " id="polygon21">
+                        </polygon>
+                        <polygon class="st0" points="995,333.4 995,369.1 1030.7,369.1 1030.9,316.3 " id="polygon23">
+                        </polygon>
+                        <path class="st0"
+                            d="m 925.7,393.2 c -16.9,-5.8 -31.8,-9.9 -31.8,-18.6 l 0,-0.6 c 0,-6.1 5.5,-10.8 16.3,-10.8 11.4,0 26.8,5.5 42.2,14.6 l 16.9,-30.6 c -16.9,-11.4 -38.5,-18.1 -58.3,-18.1 -31.5,0 -57.1,17.8 -57.1,49.5 l 0,0.6 c 0,30.3 24.8,40.5 46.6,46.9 17.2,5.2 32.3,8.4 32.3,18.1 l 0,0.6 c 0,7 -5.8,11.7 -18.6,11.7 -14.6,0 -32.3,-6.4 -49.2,-18.6 L 846.1,467 c 20.7,16.3 45.2,23.6 67,23.6 33.8,0 59.7,-15.7 59.7,-50.4 l 0,-0.6 c 0.1,-28.6 -25.2,-39.1 -47.1,-46.4 z"
+                            id="path25"></path>
+                        <path class="st0"
+                            d="m 277.1,426 0,-56.9 42.5,0 0,-35.7 -42.5,0 0,-56.8 -35.7,17 0,39.8 -23.8,0 0,35.7 23.8,0 0,56.9 c 0,33.3 27.1,60.3 60.3,60.3 l 17.8,0 0,-35.7 -17.8,0 c -13.6,0 -24.6,-11.1 -24.6,-24.6 z"
+                            id="path27"></path>
+                        <path class="st0"
+                            d="m 1138.5,450.6 c -13.6,0 -24.6,-11.1 -24.6,-24.6 l 0,-56.9 42.5,0 0,-35.7 -42.5,0 0,-56.8 -35.7,17 0,39.8 -23.8,0 0,35.7 23.8,0 0,56.9 c 0,33.3 27.1,60.3 60.3,60.3 l 17.8,0 0,-35.7 -17.8,0 z"
+                            id="path29"></path>
+                        <polygon class="st0" points="512.3,296.6 512.3,486.3 548,450.6 548,276.6 " id="polygon31"
+                            transform="translate(8,0)"></polygon>
+                    </g>
+                </svg>
+                <span>agence web open source depuis 2006 – 01 84 80 46 80</span>
+            </a>
+        </div>
+
+        <div class="bloc-menu">
+            <span class="mobile-close-menu">
+                <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="13"
+                    height="13" viewBox="0 0 13 13">
+                    <g>
+                        <g transform="translate(-313 -33)">
+                            <image width="13" height="13" transform="translate(313 33)"
+                                xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA0AAAANCAYAAABy6+R8AAAAj0lEQVQoU6WSMQ7CQAwEZyXyCzqKvIAqDUU+wQv5BEWaVLQUUNDxiyAtOumCiPAVF670eexd27J9BTZAL+lJ4dneAmfgJds3oAUewCECMzAAO+CeoFRhDvyA4X9SUwJLcc0WgoQjcMqSFgo+UNBxAprI6wLK4B4YM5DATtLle6j/dar2VD29VXtaexHVt/cGjyd7jKvpqjAAAAAASUVORK5CYII=">
+                            </image>
+                        </g>
+                    </g>
+                </svg> </span>
+            <nav class="menu menu--primary-menu" style="margin-right: 0px;">
+                <ul class="menu__list menu__list--level-0">
+                    <li class="menu__item" data-tab="1"><a href="javascript:void(0)" class="menu__link">Nos derniers
+                            projets</a></li>
+                    <li class="menu__item" data-tab="2"><a href="javascript:void(0)" class="menu__link">Contact</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+
+        <span class="mobile-toggle-menu">
+            <!--?xml version="1.0" encoding="utf-8"?-->
+            <svg version="1.1" id="Calque_1" xmlns="http://www.w3.org/2000/svg"
+                xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 17.7 14"
+                style="enable-background:new 0 0 17.7 14;" xml:space="preserve">
+                <style type="text/css">
+                    .st0 {
+                        fill: #FFFFFF;
+                    }
+                </style>
+                <g>
+                    <path class="st0"
+                        d="M16.7,14H1c-0.5,0-1-0.4-1-1v0c0-0.5,0.4-1,1-1h15.7c0.5,0,1,0.4,1,1v0C17.7,13.6,17.2,14,16.7,14z">
+                    </path>
+                    <path class="st0"
+                        d="M16.7,8H1C0.4,8,0,7.6,0,7v0c0-0.5,0.4-1,1-1h15.7c0.5,0,1,0.4,1,1v0C17.7,7.6,17.2,8,16.7,8z">
+                    </path>
+                    <path class="st0"
+                        d="M16.7,2H1C0.4,2,0,1.6,0,1v0c0-0.5,0.4-1,1-1h15.7c0.5,0,1,0.4,1,1v0C17.7,1.6,17.2,2,16.7,2z">
+                    </path>
+                </g>
+            </svg>
+        </span>
+
+    </header>
+    <main class="site__body__inner">
+        <section class="section-default mobile-section">
+            <div class="hero">
+                <div>
+                    <h1 class="hero__title">
+                        agence web open source depuis 2006 – 01 84 80 46 80
+                    </h1>
+                    <h2 class="hero__subtitle">
+                        Réalisation de sites internet sous WordPress
+                    </h2>
+                </div>
+                <div class="hero__buttons">
+                    <a href="tel:33184804680" class="hero__buttons__phone">
+                        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="24" height="24" viewBox="0 0 24 24">
+                            <path
+                                d="M15,12H17A5,5 0 0,0 12,7V9A3,3 0 0,1 15,12M19,12H21C21,7 16.97,3 12,3V5C15.86,5 19,8.13 19,12M20,15.5C18.75,15.5 17.55,15.3 16.43,14.93C16.08,14.82 15.69,14.9 15.41,15.18L13.21,17.38C10.38,15.94 8.06,13.62 6.62,10.79L8.82,8.59C9.1,8.31 9.18,7.92 9.07,7.57C8.7,6.45 8.5,5.25 8.5,4A1,1 0 0,0 7.5,3H4A1,1 0 0,0 3,4A17,17 0 0,0 20,21A1,1 0 0,0 21,20V16.5A1,1 0 0,0 20,15.5Z">
+                            </path>
+                        </svg>
+                        <span>
+                            +33 1 84 80 46 80
+                        </span>
+                    </a>
+                    <span class="hero__buttons__contact">
+                        <svg version="1.1" id="Calque_1" xmlns="http://www.w3.org/2000/svg"
+                            xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 17.6 13.7"
+                            style="enable-background:new 0 0 17.6 13.7;" xml:space="preserve">
+                            <style type="text/css">
+                                .st0 {
+                                    fill: #FFFFFF;
+                                }
+                            </style>
+                            <path class="st0"
+                                d="M17.6,13.1c0,0,0-0.1,0-0.1V0.8c0,0,0-0.1,0-0.1c0-0.1,0-0.1,0-0.2c0-0.1,0-0.1-0.1-0.1c0,0,0-0.1-0.1-0.1
+                                           c0,0,0,0,0,0c0,0-0.1-0.1-0.1-0.1c0,0-0.1-0.1-0.1-0.1c0,0-0.1,0-0.1,0C17,0,17,0,16.9,0c0,0,0,0,0,0H0.8c0,0,0,0,0,0
+                                           C0.7,0,0.6,0,0.6,0c0,0-0.1,0-0.1,0c0,0-0.1,0-0.1,0.1c0,0-0.1,0.1-0.1,0.1c0,0,0,0,0,0c0,0,0,0.1-0.1,0.1c0,0-0.1,0.1-0.1,0.1
+                                           c0,0.1,0,0.1,0,0.2c0,0,0,0.1,0,0.1V13c0,0,0,0.1,0,0.1c0,0.1,0,0.1,0,0.2c0,0.1,0.1,0.1,0.1,0.1c0,0,0,0.1,0.1,0.1c0,0,0,0,0,0
+                                           c0.1,0.1,0.1,0.1,0.2,0.1c0,0,0,0,0,0c0.1,0,0.2,0.1,0.3,0.1h16.1c0.1,0,0.2,0,0.3-0.1c0,0,0,0,0,0c0.1,0,0.1-0.1,0.2-0.1
+                                           c0,0,0,0,0,0c0,0,0-0.1,0.1-0.1c0,0,0.1-0.1,0.1-0.1C17.6,13.2,17.6,13.2,17.6,13.1z M12.8,8.3C12.5,8,12,8,11.7,8.3
+                                           c-0.3,0.3-0.3,0.8,0.1,1.1l3.2,2.8H2.7l3.2-2.8c0.3-0.3,0.3-0.8,0.1-1.1C5.6,8,5.2,8,4.9,8.3l-3.4,3V2.4l6.8,5.8
+                                           c0.1,0.1,0.3,0.2,0.5,0.2s0.3-0.1,0.5-0.2l6.8-5.8v8.9L12.8,8.3z M2.8,1.5h12.1l-6,5.1L2.8,1.5z">
+                            </path>
+                        </svg>
+                        <span>
+                            Nous contacter
+                        </span>
+                    </span>
+                </div>
+            </div>
+        </section>
+
+        <section class="section-default scrollable-section section-carousel-type desktop-section" data-section-number="1">
+            <div class="slider-banner">
+                <div>
+                    <img src="./assets/img/banner/banner1.jpg" alt="">
+                    <div class="slider__item__content" id="first_content_slide">
+
+                        <h2 class="slider__item__title">Le client : ID SEARCH GROUPE</h2>
+
+                        <div class="slider__item__subtitle">
+                            Son expertise :<br> Spécialiste des métiers du recrutement </div>
+
+                        <a href="#" class="slider__item__link">
+                            Voir le projet
+                            <img src="./assets/icons/arrow.svg" alt="" data-lazy-src="./assets/icons/arrow.svg"
+                                data-ll-status="loaded" class="entered lazyloaded">
+                        </a>
+
+                    </div>
+                </div>
+                <div>
+                    <img src="./assets/img/banner/banner2.jpg" alt="">
+                    <div class="slider__item__content">
+
+                        <h2 class="slider__item__title">Le client : ID SEARCH GROUPE</h2>
+
+                        <div class="slider__item__subtitle">
+                            Son expertise :<br> Spécialiste des métiers du recrutement </div>
+
+                        <a href="#" class="slider__item__link">
+                            Voir le projet
+                            <img src="./assets/icons/arrow.svg" alt="" data-lazy-src="./assets/icons/arrow.svg"
+                                data-ll-status="loaded" class="entered lazyloaded">
+                        </a>
+
+                    </div>
+                </div>
+                <div>
+                    <img src="./assets/img/banner/banner3.jpg" alt="">
+                    <div class="slider__item__content">
+
+                        <h2 class="slider__item__title">Le client : ID SEARCH GROUPE</h2>
+
+                        <div class="slider__item__subtitle">
+                            Son expertise :<br> Spécialiste des métiers du recrutement </div>
+
+                        <a href="#" class="slider__item__link">
+                            Voir le projet
+                            <img src="./assets/icons/arrow.svg" alt="" data-lazy-src="./assets/icons/arrow.svg"
+                                data-ll-status="loaded" class="entered lazyloaded">
+                        </a>
+
+                    </div>
+                </div>
+            </div>
+            <div class="slider__progress"></div>
+        </section>
+
+        <section class="section-default scrollable-section section-type-fixed" data-section-number="2">
+            <div class="clients section-marker animating">
+                <div class="clients__inner ">
+                    <div class="animate_enter">
+                        <h3 class="clients__refs__title clients__refs__title--mobile">
+                            L'agence
+                        </h3>
+                        <h2 class="clients__title snipcss0-3-116-118">
+                            Nos références parlent pour nous...
+                        </h2>
+                        <p class="clients__excerpt snipcss0-3-116-119">
+                            takasit - web experts (anciennement MRJ WEB) est une agence web spécialisée depuis 2006 dans la réalisation de sites web sous wordpress. Nous attachons une importance particulière à la qualité de nos développements et à assurer la maintenabilité de votre
+                            site web pour le futur.... Nous aurions adoré vous présenter toutes les prouesses de nos magiciens du code-source mais comme la technique n'intéresse que les passionnés comme nous, nous avons préféré vous présenter ici notre
+                            savoir-faire au travers des projets réalisés pour nos clients...
+                        </p>
+                    </div>
+                    <div class="clients__refs">
+                        <h3 class="clients__refs__title">
+                            Nos derniers clients
+                        </h3>
+                        <div class="clients__refs__item">
+                            <img src="./assets/img/partners/adsearch1.png" alt="">
+                        </div>
+                        <div class="clients__refs__item">
+                            <img src="./assets/img/partners/ateme.png" alt="">
+                        </div>
+                        <div class="clients__refs__item">
+                            <img src="./assets/img/partners/atn-partners-logo-1.jpg" alt="">
+                        </div>
+                        <div class="clients__refs__item">
+                            <img src="./assets/img/partners/atscaf-logo-300x150.jpg" alt="">
+                        </div>
+                        <div class="clients__refs__item">
+                            <img src="./assets/img/partners/cmp-logo.png" alt="">
+                        </div>
+                        <div class="clients__refs__item">
+                            <img src="./assets/img/partners/dbvib.png" alt="">
+                        </div>
+                        <div class="clients__refs__item">
+                            <img src="./assets/img/partners/habitaplus-logo-300x81.png" alt="">
+                        </div>
+                        <div class="clients__refs__item">
+                            <img src="./assets/img/partners/idsearch-logo-1.png" alt="">
+                        </div>
+                        <div class="clients__refs__item">
+                            <img src="./assets/img/partners/kappa.png" alt="">
+                        </div>
+                        <div class="clients__refs__item">
+                            <img src="./assets/img/partners/kobaltt-logo-1.png" alt="">
+                        </div>
+                        <div class="clients__refs__item">
+                            <img src="./assets/img/partners/maintenanceandco-logo.png" alt="">
+                        </div>
+                        <div class="clients__refs__item">
+                            <img src="./assets/img/partners/nomen-1.png" alt="">
+                        </div>
+                        <div class="clients__refs__item">
+                            <img src="./assets/img/partners/partnaire_logo.jpg" alt="">
+                        </div>
+                        <div class="clients__refs__item">
+                            <img src="./assets/img/partners/skills-rh-logo-1.jpg" alt="">
+                        </div>
+                        <div class="clients__refs__item">
+                            <img src="./assets/img/partners/tecxell-interim-logo-1.jpg" alt="">
+                        </div>
+                        <div class="clients__refs__item">
+                            <img src="./assets/img/partners/tecxell.png" alt="">
+                        </div>
+                        <div class="clients__refs__item">
+                            <img src="./assets/img/partners/transition-logo-300x54.png" alt="">
+                        </div>
+                        <div class="clients__refs__item">
+                            <img src="/assets/img/partners/wesaerch-logo-300x52.png" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="clients__side tether-target-attached-top snipcss0-2-114-158 snipcss0-3-120-164 snipcss0-1-1-45 tether-element-attached-top tether-element-attached-center tether-target-attached-center">
+                </div>
+            </div>
+
+        </section>
+
+        <section class="section-default scrollable-section section-type-three" data-section-number="3">
+            <div class="domains section-marker toanimate">
+                <h2 class="domains__title">
+                    Nos domaines d'intervention
+                </h2>
+                <div class="domains__item">
+                    <div class="domains__item__picto">
+                        <svg xmlns="http://www.w3.org/2000/svg" enable-background="new 0 0 200 200" id="Layer_1" version="1.0" viewBox="0 0 170.39999 164" xml:space="preserve" class="snipcss0-3-4-5">
+                            <g id="New_Symbol" transform="translate(-14.7,-18)" class="snipcss0-4-5-6">
+                            </g>
+                            <g id="New_Symbol_1_" transform="translate(-14.7,-18)" class="snipcss0-4-5-7">
+                            </g>
+                            <g id="New_Symbol_1" transform="translate(-14.7,-18)" class="snipcss0-4-5-8">
+                            </g>
+                            <g id="New_Symbol_9_2_" transform="translate(-14.7,-18)" class="snipcss0-4-5-9">
+                            </g>
+                            <g id="New_Symbol_7" transform="translate(-14.7,-18)" class="snipcss0-4-5-10">
+                            </g>
+                            <g id="New_Symbol_9_1_" transform="translate(-14.7,-18)" class="snipcss0-4-5-11">
+                            </g>
+                            <g id="New_Symbol_9" transform="translate(-14.7,-18)" class="snipcss0-4-5-12">
+                            </g>
+                            <g id="Nuevo_símbolo" transform="translate(-14.7,-18)" class="snipcss0-4-5-13">
+                            </g>
+                            <g id="New_Symbol_10" transform="translate(-14.7,-18)" class="snipcss0-4-5-14">
+                            </g>
+                            <g id="New_Symbol_12" transform="translate(-14.7,-18)" class="snipcss0-4-5-15">
+                            </g>
+                            <g id="New_Symbol_14" transform="translate(-14.7,-18)" class="snipcss0-4-5-16">
+                            </g>
+                            <g id="New_Symbol_15" transform="translate(-14.7,-18)" class="snipcss0-4-5-17">
+                            </g>
+                            <g id="New_Symbol_16" transform="translate(-14.7,-18)" class="snipcss0-4-5-18">
+                            </g>
+                            <g id="New_Symbol_17_1_" transform="translate(-14.7,-18)" class="snipcss0-4-5-19">
+                            </g>
+                            <g id="New_Symbol_18" transform="translate(-14.7,-18)" class="snipcss0-4-5-20">
+                            </g>
+                            <g id="New_Symbol_19" transform="translate(-14.7,-18)" class="snipcss0-4-5-21">
+                            </g>
+                            <g id="New_Symbol_17" transform="translate(-14.7,-18)" class="snipcss0-4-5-22">
+                            </g>
+                            <g id="g20" transform="translate(-14.7,-18)" class="snipcss0-4-5-23">
+                                <path
+                                    d="m 25.5,32.1 c 2.6,0 4.7,-2.1 4.7,-4.7 0,-2.6 -2.1,-4.7 -4.7,-4.7 -2.6,0 -4.7,2.1 -4.7,4.7 0,2.6 2.1,4.7 4.7,4.7 z m 0,-7.4 c 1.5,0 2.7,1.2 2.7,2.7 0,1.5 -1.2,2.7 -2.7,2.7 -1.5,0 -2.7,-1.2 -2.7,-2.7 0,-1.5 1.2,-2.7 2.7,-2.7 z"
+                                    id="path22">
+                                </path>
+                                <path
+                                    d="m 36.8,32.1 c 2.6,0 4.7,-2.1 4.7,-4.7 0,-2.6 -2.1,-4.7 -4.7,-4.7 -2.6,0 -4.7,2.1 -4.7,4.7 0,2.6 2.1,4.7 4.7,4.7 z m 0,-7.4 c 1.5,0 2.7,1.2 2.7,2.7 0,1.5 -1.2,2.7 -2.7,2.7 -1.5,0 -2.7,-1.2 -2.7,-2.7 0,-1.5 1.2,-2.7 2.7,-2.7 z"
+                                    id="path24">
+                                </path>
+                                <path
+                                    d="m 48.1,32.1 c 2.6,0 4.7,-2.1 4.7,-4.7 0,-2.6 -2.1,-4.7 -4.7,-4.7 -2.6,0 -4.7,2.1 -4.7,4.7 0,2.6 2.1,4.7 4.7,4.7 z m 0,-7.4 c 1.5,0 2.7,1.2 2.7,2.7 0,1.5 -1.2,2.7 -2.7,2.7 -1.5,0 -2.7,-1.2 -2.7,-2.7 0,-1.5 1.2,-2.7 2.7,-2.7 z"
+                                    id="path26">
+                                </path>
+                                <path
+                                    d="m 67.1,154 -37,0 c -0.6,0 -1,0.4 -1,1 0,0.6 0.4,1 1,1 l 37,0 c 0.6,0 1,-0.4 1,-1 0,-0.6 -0.4,-1 -1,-1 z"
+                                    id="path28">
+                                </path>
+                                <path
+                                    d="m 67.1,159 -37,0 c -0.6,0 -1,0.4 -1,1 0,0.6 0.4,1 1,1 l 37,0 c 0.6,0 1,-0.4 1,-1 0,-0.6 -0.4,-1 -1,-1 z"
+                                    id="path30">
+                                </path>
+                                <path
+                                    d="m 67.1,164 -37,0 c -0.6,0 -1,0.4 -1,1 0,0.6 0.4,1 1,1 l 37,0 c 0.6,0 1,-0.4 1,-1 0,-0.6 -0.4,-1 -1,-1 z"
+                                    id="path32">
+                                </path>
+                                <path
+                                    d="m 67.1,169 -37,0 c -0.6,0 -1,0.4 -1,1 0,0.6 0.4,1 1,1 l 37,0 c 0.6,0 1,-0.4 1,-1 0,-0.6 -0.4,-1 -1,-1 z"
+                                    id="path34">
+                                </path>
+                                <path
+                                    d="m 119.1,154 -37,0 c -0.6,0 -1,0.4 -1,1 0,0.6 0.4,1 1,1 l 37,0 c 0.6,0 1,-0.4 1,-1 0,-0.6 -0.4,-1 -1,-1 z"
+                                    id="path36">
+                                </path>
+                                <path
+                                    d="m 119.1,159 -37,0 c -0.6,0 -1,0.4 -1,1 0,0.6 0.4,1 1,1 l 37,0 c 0.6,0 1,-0.4 1,-1 0,-0.6 -0.4,-1 -1,-1 z"
+                                    id="path38">
+                                </path>
+                                <path
+                                    d="m 119.1,164 -37,0 c -0.6,0 -1,0.4 -1,1 0,0.6 0.4,1 1,1 l 37,0 c 0.6,0 1,-0.4 1,-1 0,-0.6 -0.4,-1 -1,-1 z"
+                                    id="path40">
+                                </path>
+                                <path
+                                    d="m 119.1,169 -37,0 c -0.6,0 -1,0.4 -1,1 0,0.6 0.4,1 1,1 l 37,0 c 0.6,0 1,-0.4 1,-1 0,-0.6 -0.4,-1 -1,-1 z"
+                                    id="path42">
+                                </path>
+                                <path
+                                    d="m 170.1,154 -37,0 c -0.6,0 -1,0.4 -1,1 0,0.6 0.4,1 1,1 l 37,0 c 0.6,0 1,-0.4 1,-1 0,-0.6 -0.4,-1 -1,-1 z"
+                                    id="path44">
+                                </path>
+                                <path
+                                    d="m 170.1,159 -37,0 c -0.6,0 -1,0.4 -1,1 0,0.6 0.4,1 1,1 l 37,0 c 0.6,0 1,-0.4 1,-1 0,-0.6 -0.4,-1 -1,-1 z"
+                                    id="path46">
+                                </path>
+                                <path
+                                    d="m 170.1,164 -37,0 c -0.6,0 -1,0.4 -1,1 0,0.6 0.4,1 1,1 l 37,0 c 0.6,0 1,-0.4 1,-1 0,-0.6 -0.4,-1 -1,-1 z"
+                                    id="path48">
+                                </path>
+                                <path
+                                    d="m 170.1,169 -37,0 c -0.6,0 -1,0.4 -1,1 0,0.6 0.4,1 1,1 l 37,0 c 0.6,0 1,-0.4 1,-1 0,-0.6 -0.4,-1 -1,-1 z"
+                                    id="path50">
+                                </path>
+                                <path
+                                    d="m 185,77.6 0,-40.9 0,-18.7 -170,0 0,18.7 0,40.6 c 0,0.2 -0.3,0.4 -0.3,0.7 0,0.3 0.3,0.6 0.3,0.7 l 0,103.3 170,0 0,-103.6 c 0,-0.1 0.1,-0.3 0.1,-0.4 0,-0.1 -0.1,-0.3 -0.1,-0.4 z M 183,180 17,180 17,79 80.4,79 c 0.8,10.2 9.4,18.3 19.8,18.3 10.4,0 19,-8.1 19.8,-18.3 l 63,0 0,101 z M 100.2,80.4 c 5.9,0 11.1,4.3 12.2,10.1 -3.2,3 -7.5,4.8 -12.2,4.8 -4.7,0 -9,-1.8 -12.2,-4.8 1.1,-5.8 6.3,-10.1 12.2,-10.1 z m -4.8,-7.3 c 0,-2.7 2.2,-4.8 4.8,-4.8 2.7,0 4.8,2.2 4.8,4.8 0,2.6 -2.2,4.8 -4.8,4.8 -2.6,0 -4.8,-2.2 -4.8,-4.8 z m 8.4,5.8 c 1.9,-1.2 3.2,-3.4 3.2,-5.8 0,-3.8 -3.1,-6.8 -6.8,-6.8 -3.8,0 -6.8,3.1 -6.8,6.8 0,2.5 1.3,4.6 3.2,5.8 -4.9,1.3 -8.8,5 -10.2,9.9 -2.6,-3.1 -4.1,-7.1 -4.1,-11.4 0,-9.9 8,-17.9 17.9,-17.9 9.9,0 17.9,8 17.9,17.9 0,4.3 -1.5,8.3 -4.1,11.4 -1.4,-4.9 -5.3,-8.7 -10.2,-9.9 z M 183,77 120.1,77 c -0.2,-10.8 -9,-19.6 -19.9,-19.6 -10.9,0 -19.7,8.8 -19.9,19.6 l -63.3,0 0,-40 166,0 0,40 z m 0,-42 -166,0 0,-15 166,0 0,15 z"
+                                    id="path52">
+                                </path>
+                                <path d="m 28,146 40,0 0,-40 -40,0 0,40 z m 2,-38 36,0 0,36 -36,0 0,-36 z" id="path54">
+                                </path>
+                                <path d="m 80,146 40,0 0,-40 -40,0 0,40 z m 2,-38 36,0 0,36 -36,0 0,-36 z" id="path56">
+                                </path>
+                                <path d="m 171,106 -40,0 0,40 40,0 0,-40 z m -2,38 -36,0 0,-36 36,0 0,36 z" id="path58">
+                                </path>
+                            </g>
+                        </svg>
+                    </div>
+                    <h3 class="domains__item__title">
+                        Design
+                    </h3>
+                    <div class="domains__item__details">
+                        <ul>
+                            <li>
+                                Création de gabarits personnalisés
+                            </li>
+                            <li>
+                                Recherche iconographique
+                            </li>
+                            <li>
+                                Réalisation d’animations personnalisées
+                            </li>
+                            <li>
+                                Déclinaisons desktop, tablette et mobile
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="domains__item">
+                    <div class="domains__item__picto">
+                        <svg xmlns="http://www.w3.org/2000/svg" enable-background="new 0 0 200 200" id="Layer_1" version="1.0" viewBox="0 0 170.10001 127" xml:space="preserve" class="snipcss0-3-32-33">
+                            <g id="New_Symbol" transform="translate(-15,-37)">
+                            </g>
+                            <g id="New_Symbol_1_" transform="translate(-15,-37)">
+                            </g>
+                            <g id="New_Symbol_1" transform="translate(-15,-37)">
+                            </g>
+                            <g id="New_Symbol_9_2_" transform="translate(-15,-37)">
+                            </g>
+                            <g id="New_Symbol_7" transform="translate(-15,-37)">
+                            </g>
+                            <g id="New_Symbol_9_1_" transform="translate(-15,-37)">
+                            </g>
+                            <g id="New_Symbol_9" transform="translate(-15,-37)">
+                            </g>
+                            <g id="Nuevo_símbolo" transform="translate(-15,-37)">
+                            </g>
+                            <g id="New_Symbol_10" transform="translate(-15,-37)">
+                            </g>
+                            <g id="New_Symbol_12" transform="translate(-15,-37)">
+                            </g>
+                            <g id="New_Symbol_14" transform="translate(-15,-37)">
+                            </g>
+                            <g id="New_Symbol_15" transform="translate(-15,-37)">
+                            </g>
+                            <g id="New_Symbol_16" transform="translate(-15,-37)">
+                            </g>
+                            <g id="New_Symbol_17_1_" transform="translate(-15,-37)">
+                            </g>
+                            <g id="New_Symbol_18" transform="translate(-15,-37)">
+                            </g>
+                            <g id="New_Symbol_19" transform="translate(-15,-37)">
+                            </g>
+                            <g id="New_Symbol_17" transform="translate(-15,-37)">
+                            </g>
+                            <g id="g84" transform="translate(-15,-37)">
+                                <g id="g86" class="snipcss0-5-51-52">
+                                    <g id="g88" class="snipcss0-6-52-53">
+                                        <path
+                                            d="m 25.2,40.5 c -2.6,0 -4.7,2.1 -4.7,4.7 0,2.6 2.1,4.7 4.7,4.7 2.6,0 4.7,-2.1 4.7,-4.7 0,-2.6 -2.1,-4.7 -4.7,-4.7 z m 0,7.4 c -1.5,0 -2.7,-1.2 -2.7,-2.7 0,-1.5 1.2,-2.7 2.7,-2.7 1.5,0 2.7,1.2 2.7,2.7 0,1.5 -1.2,2.7 -2.7,2.7 z"
+                                            id="path90">
+                                        </path>
+                                    </g>
+                                </g>
+                                <g id="g92" class="snipcss0-5-51-54">
+                                    <g id="g94" class="snipcss0-6-54-55">
+                                        <path
+                                            d="m 36.5,40.5 c -2.6,0 -4.7,2.1 -4.7,4.7 0,2.6 2.1,4.7 4.7,4.7 2.6,0 4.7,-2.1 4.7,-4.7 0,-2.6 -2.1,-4.7 -4.7,-4.7 z m 0,7.4 c -1.5,0 -2.7,-1.2 -2.7,-2.7 0,-1.5 1.2,-2.7 2.7,-2.7 1.5,0 2.7,1.2 2.7,2.7 0,1.5 -1.2,2.7 -2.7,2.7 z"
+                                            id="path96">
+                                        </path>
+                                    </g>
+                                </g>
+                                <g id="g98" class="snipcss0-5-51-56">
+                                    <g id="g100" class="snipcss0-6-56-57">
+                                        <path
+                                            d="m 47.8,40.5 c -2.6,0 -4.7,2.1 -4.7,4.7 0,2.6 2.1,4.7 4.7,4.7 2.6,0 4.7,-2.1 4.7,-4.7 0,-2.6 -2.1,-4.7 -4.7,-4.7 z m 0,7.4 c -1.5,0 -2.7,-1.2 -2.7,-2.7 0,-1.5 1.2,-2.7 2.7,-2.7 1.5,0 2.7,1.2 2.7,2.7 0,1.5 -1.2,2.7 -2.7,2.7 z"
+                                            id="path102">
+                                        </path>
+                                    </g>
+                                </g>
+                                <g id="g104" class="snipcss0-5-51-58">
+                                    <g id="g106" class="snipcss0-6-58-59">
+                                        <path
+                                            d="m 185,95.3 0,-40.8 0,-17.5 -170,0 0,17.5 0,109.5 170,0 0,-67.8 c 0,-0.1 0.1,-0.3 0.1,-0.4 0,-0.1 -0.1,-0.3 -0.1,-0.5 z m -2,66.7 -166,0 0,-106 166,0 0,106 z m 0,-108 -166,0 0,-15 166,0 0,15 z"
+                                            id="path108">
+                                        </path>
+                                    </g>
+                                </g>
+                                <g id="g110" class="snipcss0-5-51-60">
+                                    <g id="g112" class="snipcss0-6-60-61">
+                                        <path
+                                            d="m 39,73.5 0,6.2 c 0.4,0 0.7,0.1 0.8,0.3 0.1,0.2 0.3,0.4 0.3,0.7 0,0.3 -0.1,0.5 -0.3,0.6 -0.2,0.2 -0.5,0.2 -0.9,0.2 l -1.7,0 0,-0.5 c -0.5,0.2 -1,0.4 -1.5,0.5 -0.5,0.1 -0.9,0.2 -1.3,0.2 -0.6,0 -1.1,-0.1 -1.5,-0.4 -0.4,-0.2 -0.8,-0.6 -1,-1 -0.2,-0.3 -0.3,-0.7 -0.3,-1.2 l 0,-3.9 -0.3,0 c -0.4,0 -0.7,-0.1 -0.9,-0.3 -0.2,-0.2 -0.3,-0.4 -0.3,-0.7 0,-0.3 0.1,-0.5 0.3,-0.6 0.2,-0.2 0.5,-0.2 0.9,-0.2 l 2.1,0 0,5.4 c 0,0.4 0.1,0.7 0.3,0.8 0.2,0.2 0.5,0.3 0.8,0.3 0.4,0 0.8,-0.1 1.2,-0.2 0.4,-0.1 0.9,-0.4 1.6,-0.8 l 0,-3.7 -0.7,0 c -0.4,0 -0.7,-0.1 -0.9,-0.3 -0.2,-0.2 -0.3,-0.4 -0.3,-0.7 0,-0.3 0.1,-0.5 0.3,-0.6 0.2,-0.2 0.5,-0.2 0.9,-0.2 l 2.4,0 z"
+                                            id="path114">
+                                        </path>
+                                    </g>
+                                    <g id="g116" class="snipcss0-6-60-62">
+                                        <path
+                                            d="m 48.4,75.6 c -0.3,-0.2 -0.6,-0.3 -0.9,-0.4 -0.3,-0.1 -0.7,-0.1 -1,-0.1 -0.7,0 -1.3,0.1 -1.7,0.3 -0.2,0.1 -0.3,0.2 -0.3,0.3 0,0.1 0.1,0.3 0.4,0.4 0.2,0.1 0.6,0.2 1.3,0.3 1.2,0.2 2,0.3 2.5,0.5 0.6,0.2 1.1,0.5 1.4,1 0.3,0.5 0.5,0.9 0.5,1.4 0,0.6 -0.3,1.2 -0.9,1.6 -0.8,0.6 -1.9,0.9 -3.2,0.9 -0.5,0 -1,0 -1.4,-0.1 -0.4,-0.1 -0.8,-0.2 -1.2,-0.4 -0.1,0.1 -0.2,0.1 -0.3,0.2 -0.1,0.1 -0.2,0.1 -0.3,0.1 -0.3,0 -0.5,-0.1 -0.7,-0.3 -0.2,-0.2 -0.3,-0.5 -0.3,-0.9 l 0,-0.6 c 0,-0.4 0.1,-0.7 0.3,-0.9 0.2,-0.2 0.4,-0.3 0.7,-0.3 0.2,0 0.4,0.1 0.5,0.2 0.1,0.1 0.3,0.3 0.3,0.6 0.3,0.2 0.6,0.4 1,0.5 0.4,0.1 0.8,0.2 1.3,0.2 0.8,0 1.5,-0.1 1.9,-0.4 0.2,-0.1 0.3,-0.3 0.3,-0.4 0,-0.2 -0.2,-0.4 -0.5,-0.6 -0.3,-0.2 -1,-0.3 -1.9,-0.4 -1.4,-0.2 -2.4,-0.4 -2.9,-0.9 -0.5,-0.4 -0.7,-1 -0.7,-1.6 0,-0.6 0.3,-1.2 0.8,-1.6 0.7,-0.6 1.7,-0.9 2.9,-0.9 0.4,0 0.8,0 1.2,0.1 0.4,0.1 0.8,0.2 1.1,0.4 0.1,-0.1 0.2,-0.1 0.3,-0.2 0.1,0 0.2,-0.1 0.3,-0.1 0.2,0 0.5,0.1 0.6,0.3 0.2,0.2 0.2,0.5 0.2,0.9 l 0,0.4 c 0,0.4 0,0.7 -0.1,0.8 -0.2,0.3 -0.4,0.4 -0.8,0.4 -0.2,0 -0.4,-0.1 -0.6,-0.2 -0.2,-0.1 0,-0.3 -0.1,-0.5 z"
+                                            id="path118">
+                                        </path>
+                                    </g>
+                                    <g id="g120" class="snipcss0-6-60-63">
+                                        <path
+                                            d="m 62.2,78.4 -7.4,0 c 0.2,0.5 0.5,0.8 1,1.1 0.5,0.3 1.1,0.4 1.9,0.4 0.7,0 1.6,-0.1 2.7,-0.4 0.5,-0.1 0.8,-0.2 0.9,-0.2 0.2,0 0.4,0.1 0.6,0.3 0.2,0.2 0.2,0.4 0.2,0.6 0,0.2 -0.1,0.4 -0.3,0.6 -0.2,0.2 -0.8,0.4 -1.7,0.6 -0.9,0.2 -1.8,0.3 -2.6,0.3 -1.4,0 -2.6,-0.4 -3.5,-1.2 -0.9,-0.8 -1.3,-1.8 -1.3,-3 0,-1.3 0.5,-2.3 1.4,-3.1 0.9,-0.8 2,-1.2 3.2,-1.2 0.7,0 1.4,0.1 2,0.4 0.6,0.3 1.1,0.5 1.4,0.8 0.4,0.4 0.8,1 1,1.6 0.2,0.4 0.3,1 0.3,1.5 l 0,0.9 z m -2,-1.8 c -0.3,-0.5 -0.6,-0.9 -1.1,-1.2 -0.4,-0.3 -1,-0.4 -1.6,-0.4 -0.6,0 -1.1,0.1 -1.6,0.4 -0.4,0.3 -0.8,0.6 -1.1,1.2 l 5.4,0 z"
+                                            id="path122">
+                                        </path>
+                                    </g>
+                                    <g id="g124" class="snipcss0-6-60-64">
+                                        <path
+                                            d="m 68.6,73.5 0,1.1 c 0.8,-0.5 1.4,-0.9 1.8,-1.1 0.4,-0.2 0.8,-0.3 1.2,-0.3 0.6,0 1.2,0.2 1.7,0.7 0.4,0.3 0.6,0.6 0.6,0.9 0,0.3 -0.1,0.5 -0.3,0.7 -0.2,0.2 -0.4,0.3 -0.6,0.3 -0.2,0 -0.5,-0.1 -0.7,-0.3 -0.2,-0.2 -0.5,-0.5 -0.7,-0.5 -0.3,0 -0.6,0.2 -1.1,0.5 -0.5,0.3 -1.1,0.8 -1.9,1.4 l 0,2.7 2.6,0 c 0.4,0 0.7,0.1 0.9,0.3 0.2,0.2 0.3,0.4 0.3,0.7 0,0.3 -0.1,0.5 -0.3,0.6 -0.2,0.2 -0.5,0.2 -0.9,0.2 l -5.4,0 c -0.4,0 -0.7,-0.1 -0.9,-0.2 -0.2,-0.2 -0.3,-0.4 -0.3,-0.7 0,-0.3 0.1,-0.5 0.3,-0.6 0.2,-0.2 0.5,-0.3 0.9,-0.3 l 1.1,0 0,-4.4 -0.7,0 c -0.4,0 -0.7,-0.1 -0.9,-0.3 -0.2,-0.2 -0.3,-0.4 -0.3,-0.7 0,-0.3 0.1,-0.5 0.3,-0.6 0.2,-0.2 0.5,-0.2 0.9,-0.2 l 2.4,0 z"
+                                            id="path126">
+                                        </path>
+                                    </g>
+                                    <g id="g128" class="snipcss0-6-60-65">
+                                        <path
+                                            d="m 82.1,73.6 0,-0.6 c 0,-0.6 -0.2,-1 -0.5,-1.4 -0.3,-0.4 -0.8,-0.5 -1.3,-0.5 -0.4,0 -0.8,0.1 -1.2,0.4 -0.4,0.3 -0.7,0.6 -0.8,1.1 -0.3,0.8 -0.5,1.6 -0.5,2.3 l 0,2.7 c 0,1.4 0.3,2.4 0.9,3.2 0.4,0.5 1,0.8 1.7,0.8 0.4,0 0.7,0 1,-0.1 0.3,-0.1 0.6,-0.2 0.7,-0.4 0.1,-0.2 0.3,-0.3 0.5,-0.3 0.2,0 0.4,0.1 0.5,0.2 0.1,0.1 0.2,0.3 0.2,0.5 0,0.3 -0.2,0.6 -0.6,0.9 -0.6,0.4 -1.4,0.6 -2.4,0.6 -0.8,0 -1.4,-0.2 -1.9,-0.5 -0.7,-0.5 -1.1,-1.1 -1.5,-2 -0.4,-0.9 -0.5,-1.8 -0.5,-2.7 l 0,-2.9 c 0,-1.4 0.3,-2.6 1,-3.6 0.7,-1 1.6,-1.5 2.8,-1.5 0.5,0 1,0.1 1.5,0.3 0.5,0.2 0.9,0.6 1.2,1.1 0.3,0.5 0.5,1.1 0.5,1.8 l 0,4.8 c 0.3,0.1 0.4,0.3 0.4,0.6 0,0.2 -0.1,0.4 -0.2,0.5 -0.1,0.1 -0.4,0.2 -0.7,0.2 l -0.8,0 0,-0.1 c -0.3,0 -0.5,0.1 -0.6,0.1 -0.7,0 -1.3,-0.3 -1.8,-0.8 -0.5,-0.5 -0.8,-1.1 -0.8,-1.8 0,-0.8 0.3,-1.4 0.9,-2 0.6,-0.6 1.3,-0.9 2.3,-0.9 z m 0,1.3 c -0.6,0.1 -1.1,0.2 -1.4,0.5 -0.3,0.3 -0.5,0.6 -0.5,1 0,0.3 0.1,0.6 0.4,0.9 0.3,0.2 0.6,0.4 1.1,0.4 0.1,0 0.2,0 0.4,0 l 0,-2.8 z"
+                                            id="path130">
+                                        </path>
+                                    </g>
+                                    <g id="g132" class="snipcss0-6-60-66">
+                                        <path
+                                            d="m 95.3,73.5 0,6.2 c 0.4,0 0.7,0.1 0.8,0.3 0.1,0.2 0.3,0.4 0.3,0.7 0,0.3 -0.1,0.5 -0.3,0.6 -0.2,0.2 -0.5,0.2 -0.9,0.2 l -1.7,0 0,-0.5 c -0.5,0.2 -1,0.4 -1.5,0.5 -0.5,0.1 -0.9,0.2 -1.3,0.2 -0.6,0 -1.1,-0.1 -1.5,-0.4 -0.4,-0.2 -0.8,-0.6 -1,-1 C 88,80 87.9,79.6 87.9,79.1 l 0,-3.9 -0.3,0 c -0.4,0 -0.7,-0.1 -0.9,-0.3 -0.2,-0.2 -0.3,-0.4 -0.3,-0.7 0,-0.3 0.1,-0.5 0.3,-0.6 0.2,-0.2 0.5,-0.2 0.9,-0.2 l 2.1,0 0,5.4 c 0,0.4 0.1,0.7 0.3,0.8 0.2,0.2 0.5,0.3 0.8,0.3 0.4,0 0.8,-0.1 1.2,-0.2 0.4,-0.1 0.9,-0.4 1.6,-0.8 l 0,-3.7 -0.7,0 c -0.4,0 -0.7,-0.1 -0.9,-0.3 -0.2,-0.2 -0.3,-0.4 -0.3,-0.7 0,-0.3 0.1,-0.5 0.3,-0.6 0.2,-0.2 0.5,-0.2 0.9,-0.2 l 2.4,0 z"
+                                            id="path134">
+                                        </path>
+                                    </g>
+                                    <g id="g136" class="snipcss0-6-60-67">
+                                        <path
+                                            d="m 104.7,75.6 c -0.3,-0.2 -0.6,-0.3 -0.9,-0.4 -0.3,-0.1 -0.7,-0.1 -1,-0.1 -0.7,0 -1.3,0.1 -1.7,0.3 -0.2,0.1 -0.3,0.2 -0.3,0.3 0,0.1 0.1,0.3 0.4,0.4 0.2,0.1 0.6,0.2 1.3,0.3 1.2,0.2 2,0.3 2.5,0.5 0.6,0.2 1.1,0.5 1.4,1 0.3,0.5 0.5,0.9 0.5,1.4 0,0.6 -0.3,1.2 -0.9,1.6 -0.8,0.6 -1.9,0.9 -3.2,0.9 -0.5,0 -1,0 -1.4,-0.1 -0.4,-0.1 -0.8,-0.2 -1.2,-0.4 -0.1,0.1 -0.2,0.1 -0.3,0.2 -0.1,0.1 -0.2,0.1 -0.3,0.1 -0.3,0 -0.5,-0.1 -0.7,-0.3 -0.2,-0.2 -0.3,-0.5 -0.3,-0.9 l 0,-0.6 c 0,-0.4 0.1,-0.7 0.3,-0.9 0.2,-0.2 0.4,-0.3 0.7,-0.3 0.2,0 0.4,0.1 0.5,0.2 0.1,0.1 0.3,0.3 0.3,0.6 0.3,0.2 0.6,0.4 1,0.5 0.4,0.1 0.8,0.2 1.3,0.2 0.8,0 1.5,-0.1 1.9,-0.4 0.2,-0.1 0.3,-0.3 0.3,-0.4 0,-0.2 -0.2,-0.4 -0.5,-0.6 -0.3,-0.2 -1,-0.3 -1.9,-0.4 -1.4,-0.2 -2.4,-0.4 -2.9,-0.9 -0.5,-0.4 -0.7,-1 -0.7,-1.6 0,-0.6 0.3,-1.2 0.8,-1.6 0.7,-0.6 1.7,-0.9 2.9,-0.9 0.4,0 0.8,0 1.2,0.1 0.4,0.1 0.8,0.2 1.1,0.4 0.1,-0.1 0.2,-0.1 0.3,-0.2 0.1,0 0.2,-0.1 0.3,-0.1 0.2,0 0.5,0.1 0.6,0.3 0.2,0.2 0.2,0.5 0.2,0.9 l 0,0.4 c 0,0.4 0,0.7 -0.1,0.8 -0.2,0.3 -0.4,0.4 -0.8,0.4 -0.2,0 -0.4,-0.1 -0.6,-0.2 -0.2,-0.1 -0.1,-0.3 -0.1,-0.5 z"
+                                            id="path138">
+                                        </path>
+                                    </g>
+                                    <g id="g140" class="snipcss0-6-60-68">
+                                        <path
+                                            d="m 118.5,78.4 -7.4,0 c 0.2,0.5 0.5,0.8 1,1.1 0.5,0.3 1.1,0.4 1.9,0.4 0.7,0 1.6,-0.1 2.7,-0.4 0.5,-0.1 0.8,-0.2 0.9,-0.2 0.2,0 0.4,0.1 0.6,0.3 0.2,0.2 0.2,0.4 0.2,0.6 0,0.2 -0.1,0.4 -0.3,0.6 -0.2,0.2 -0.8,0.4 -1.7,0.6 -0.9,0.2 -1.8,0.3 -2.6,0.3 -1.4,0 -2.6,-0.4 -3.5,-1.2 -0.9,-0.8 -1.3,-1.8 -1.3,-3 0,-1.3 0.5,-2.3 1.4,-3.1 0.9,-0.8 2,-1.2 3.2,-1.2 0.7,0 1.4,0.1 2,0.4 0.6,0.3 1.1,0.5 1.4,0.8 0.4,0.4 0.8,1 1,1.6 0.2,0.4 0.3,1 0.3,1.5 l 0,0.9 z m -2,-1.8 c -0.3,-0.5 -0.6,-0.9 -1.1,-1.2 -0.4,-0.3 -1,-0.4 -1.6,-0.4 -0.6,0 -1.1,0.1 -1.6,0.4 -0.4,0.3 -0.8,0.6 -1.1,1.2 l 5.4,0 z"
+                                            id="path142">
+                                        </path>
+                                    </g>
+                                    <g id="g144" class="snipcss0-6-60-69">
+                                        <path
+                                            d="m 124.9,73.5 0,1.1 c 0.8,-0.5 1.4,-0.9 1.8,-1.1 0.4,-0.2 0.8,-0.3 1.2,-0.3 0.6,0 1.2,0.2 1.7,0.7 0.4,0.3 0.6,0.6 0.6,0.9 0,0.3 -0.1,0.5 -0.3,0.7 -0.2,0.2 -0.4,0.3 -0.6,0.3 -0.2,0 -0.5,-0.1 -0.7,-0.3 -0.2,-0.2 -0.5,-0.3 -0.7,-0.3 -0.3,0 -0.6,0.2 -1.1,0.5 -0.5,0.3 -1.1,0.8 -1.9,1.4 l 0,2.7 2.6,0 c 0.4,0 0.7,0.1 0.9,0.3 0.2,0.2 0.3,0.4 0.3,0.7 0,0.3 -0.1,0.5 -0.3,0.6 -0.2,0.2 -0.5,0.2 -0.9,0.2 l -5.5,0 c -0.4,0 -0.7,-0.1 -0.9,-0.2 -0.2,-0.2 -0.3,-0.4 -0.3,-0.7 0,-0.3 0.1,-0.5 0.3,-0.6 0.2,-0.2 0.5,-0.3 0.9,-0.3 l 1.1,0 0,-4.4 -0.7,0 c -0.4,0 -0.7,-0.1 -0.9,-0.3 -0.2,-0.2 -0.3,-0.4 -0.3,-0.7 0,-0.3 0.1,-0.5 0.3,-0.6 0.2,-0.2 0.5,-0.2 0.9,-0.2 l 2.5,0 z"
+                                            id="path146">
+                                        </path>
+                                    </g>
+                                    <g id="g148" class="snipcss0-6-60-70">
+                                        <path
+                                            d="m 151.4,70.3 -5.8,12.4 c -0.1,0.3 -0.3,0.5 -0.4,0.6 -0.2,0.1 -0.3,0.2 -0.6,0.2 -0.2,0 -0.5,-0.1 -0.6,-0.3 -0.2,-0.2 -0.3,-0.4 -0.3,-0.6 0,-0.2 0.1,-0.4 0.2,-0.7 l 5.8,-12.4 c 0.1,-0.3 0.3,-0.5 0.4,-0.6 0.2,-0.1 0.3,-0.2 0.6,-0.2 0.2,0 0.5,0.1 0.6,0.3 0.1,0.2 0.3,0.4 0.3,0.6 0.1,0.1 0,0.4 -0.2,0.7 z"
+                                            id="path150">
+                                        </path>
+                                    </g>
+                                    <g id="g152" class="snipcss0-6-60-71">
+                                        <path
+                                            d="m 161.8,73.8 c 0.2,-0.2 0.4,-0.3 0.7,-0.3 0.3,0 0.5,0.1 0.6,0.3 0.2,0.2 0.3,0.5 0.3,0.9 l 0,1.2 c 0,0.4 -0.1,0.7 -0.3,0.9 -0.2,0.2 -0.4,0.3 -0.7,0.3 -0.2,0 -0.5,-0.1 -0.6,-0.2 -0.1,-0.1 -0.2,-0.3 -0.3,-0.6 -0.1,-0.3 -0.2,-0.6 -0.5,-0.7 -0.5,-0.3 -1.1,-0.4 -1.8,-0.4 -0.8,0 -1.5,0.2 -2,0.7 -0.5,0.5 -0.8,1.1 -0.8,1.9 0,0.7 0.2,1.3 0.7,1.7 0.5,0.4 1.3,0.6 2.5,0.6 0.8,0 1.4,-0.1 1.8,-0.2 0.3,-0.1 0.5,-0.3 0.8,-0.5 0.3,-0.2 0.5,-0.3 0.7,-0.3 0.2,0 0.5,0.1 0.6,0.3 0.1,0.2 0.3,0.4 0.3,0.6 0,0.4 -0.3,0.8 -0.8,1.1 -0.8,0.5 -2,0.8 -3.6,0.8 -1.4,0 -2.5,-0.3 -3.3,-0.9 -1.1,-0.8 -1.6,-1.8 -1.6,-3.2 0,-1.3 0.4,-2.3 1.3,-3.2 0.9,-0.8 2,-1.3 3.3,-1.3 0.5,0 1,0 1.4,0.1 0.4,0.1 0.9,0.2 1.3,0.4 z"
+                                            id="path154">
+                                        </path>
+                                    </g>
+                                    <g id="g156" class="snipcss0-6-60-72">
+                                        <path
+                                            d="m 36.1,92.2 c 0.4,0.1 0.8,0.2 1.2,0.4 0.1,-0.1 0.2,-0.1 0.3,-0.1 0.1,0 0.2,0 0.3,0 0.3,0 0.5,0.1 0.7,0.3 0.2,0.2 0.2,0.5 0.2,0.9 l 0,0.6 c 0,0.4 -0.1,0.7 -0.2,0.9 -0.2,0.2 -0.4,0.3 -0.6,0.3 -0.2,0 -0.4,-0.1 -0.6,-0.2 C 37.1,95 37,94.8 37,94.5 36.5,94.1 36,94 35.4,94 c -0.7,0 -1.1,0.1 -1.5,0.4 -0.3,0.2 -0.5,0.5 -0.5,0.8 0,0.2 0.1,0.4 0.3,0.6 0.2,0.2 0.6,0.3 1.2,0.4 l 1.2,0.3 c 1,0.2 1.7,0.5 2.2,0.9 0.6,0.5 0.9,1.2 0.9,2.1 0,0.8 -0.3,1.4 -0.8,2 -0.5,0.6 -1.3,1 -2.2,1.2 l 0,1.5 c 0,0.4 -0.1,0.7 -0.3,0.9 -0.2,0.2 -0.4,0.3 -0.7,0.3 -0.3,0 -0.5,-0.1 -0.6,-0.3 -0.2,-0.2 -0.2,-0.5 -0.2,-0.9 l 0,-1.5 c -0.5,-0.1 -0.9,-0.3 -1.4,-0.5 -0.3,0.2 -0.5,0.3 -0.7,0.3 -0.3,0 -0.5,-0.1 -0.7,-0.3 -0.2,-0.2 -0.2,-0.5 -0.2,-0.9 l 0,-1.1 c 0,-0.4 0.1,-0.7 0.2,-0.9 0.2,-0.2 0.4,-0.3 0.7,-0.3 0.2,0 0.4,0.1 0.5,0.2 0.1,0.1 0.3,0.3 0.3,0.5 0,0.2 0.2,0.4 0.3,0.5 0.2,0.2 0.4,0.3 0.8,0.5 0.4,0.1 0.7,0.2 1.1,0.2 0.7,0 1.2,-0.2 1.7,-0.5 0.3,-0.2 0.4,-0.5 0.4,-0.9 0,-0.3 -0.1,-0.5 -0.3,-0.7 -0.2,-0.2 -0.6,-0.3 -1.3,-0.5 L 34.4,98 c -1,-0.2 -1.7,-0.5 -2.1,-1 -0.4,-0.5 -0.7,-1.1 -0.7,-1.8 0,-0.7 0.2,-1.3 0.7,-1.8 0.5,-0.5 1.1,-0.9 1.9,-1 l 0,-0.5 c 0,-0.4 0.1,-0.7 0.2,-0.9 0.2,-0.2 0.4,-0.3 0.7,-0.3 0.3,0 0.5,0.1 0.6,0.3 0.2,0.2 0.3,0.5 0.3,0.9 l 0,0.3 z"
+                                            id="path158">
+                                        </path>
+                                    </g>
+                                    <g id="g160" class="snipcss0-6-60-73">
+                                        <path
+                                            d="m 62.7,108.4 -9.9,0 c -0.4,0 -0.7,-0.1 -0.9,-0.2 -0.2,-0.2 -0.3,-0.4 -0.3,-0.7 0,-0.3 0.1,-0.5 0.3,-0.7 0.2,-0.2 0.5,-0.2 0.9,-0.2 l 9.9,0 c 0.4,0 0.7,0.1 0.9,0.2 0.2,0.2 0.3,0.4 0.3,0.7 0,0.3 -0.1,0.5 -0.3,0.6 -0.2,0.3 -0.5,0.3 -0.9,0.3 z"
+                                            id="path162">
+                                        </path>
+                                    </g>
+                                </g>
+                            </g>
+                        </svg>
+                    </div>
+                    <h3 class="domains__item__title">
+                        Réalisation suivi
+                    </h3>
+                    <div class="domains__item__details">
+                        <ul class="snipcss0-3-75-76">
+                            <li>
+                                Intégration responsive des gabarits
+                            </li>
+                            <li>
+                                Personnalisation du back-office
+                            </li>
+                            <li>
+                                Référencement naturel
+                            </li>
+                            <li>
+                                Suivi statistique via Google Analytics
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="domains__item">
+                    <div class="domains__item__picto">
+                        <svg xmlns="http://www.w3.org/2000/svg" version="1.1" id="Mode_Isolation" x="0px" y="0px" viewBox="0 0 132.8 136.99976" xml:space="preserve" class="snipcss0-3-82-83">
+                            <path class="st558775"
+                                d="m 34.2,15.3 -21.2,0 c -6.6,0 -12,5.4 -12,12 l 0,64 c 0,6.6 5.4,12 12,12 l 25,0 0,31.5 36.1,-31.5 45.7,0 c 6.6,0 12,-5.4 12,-12 l 0,-64 c 0,-6.6 -5.4,-12 -12,-12 l -21.2,0"
+                                id="path5" style="fill:none;stroke:currentColor;stroke-width:2;stroke-miterlimit:10">
+                            </path>
+                            <g id="g7" transform="translate(-33.6,-42)" class="snipcss0-4-83-84">
+                                <g id="g9" class="snipcss0-5-84-85">
+                                    <line class="st1" x1="79.699997" y1="57.299999" x2="113.4" y2="57.299999"
+                                        id="line11"
+                                        style="fill:none;stroke:currentColor;stroke-width:2;stroke-linecap:round;stroke-miterlimit:10">
+                                    </line>
+                                </g>
+                                <g id="g13" class="snipcss0-5-84-86">
+                                    <line class="st1" x1="79.699997" y1="67.199997" x2="103" y2="67.199997" id="line15"
+                                        style="fill:none;stroke:currentColor;stroke-width:2;stroke-linecap:round;stroke-miterlimit:10">
+                                    </line>
+                                </g>
+                                <g id="g17" class="snipcss0-5-84-87">
+                                    <line class="st1" x1="79.699997" y1="77.199997" x2="110" y2="77.199997" id="line19"
+                                        style="fill:none;stroke:currentColor;stroke-width:2;stroke-linecap:round;stroke-miterlimit:10">
+                                    </line>
+                                </g>
+                            </g>
+                            <polyline class="st1" points="132.2,72 150.6,72 150.6,130.8 49.4,130.8 49.4,72 67.8,72 "
+                                id="polyline21"
+                                style="fill:none;stroke:currentColor;stroke-width:2;stroke-linecap:round;stroke-miterlimit:10"
+                                transform="translate(-33.6,-42)">
+                            </polyline>
+                            <polyline class="st1" points="49.4,72 100,103.5 150.6,72 " id="polyline23"
+                                style="fill:none;stroke:currentColor;stroke-width:2;stroke-linecap:round;stroke-miterlimit:10"
+                                transform="translate(-33.6,-42)">
+                            </polyline>
+                            <g id="g25" transform="translate(-33.6,-42)" class="snipcss0-4-83-88">
+                                <line class="st1" x1="109.7" y1="97.400002" x2="150.60001" y2="130.8" id="line27"
+                                    style="fill:none;stroke:currentColor;stroke-width:2;stroke-linecap:round;stroke-miterlimit:10">
+                                </line>
+                                <line class="st1" x1="49.400002" y1="130.8" x2="90.300003" y2="97.400002" id="line29"
+                                    style="fill:none;stroke:currentColor;stroke-width:2;stroke-linecap:round;stroke-miterlimit:10">
+                                </line>
+                            </g>
+                            <polyline class="st1" points="132.2,82.8 132.2,43 67.8,43 67.8,82.8 " id="polyline31"
+                                style="fill:none;stroke:currentColor;stroke-width:2;stroke-linecap:round;stroke-miterlimit:10"
+                                transform="translate(-33.6,-42)">
+                            </polyline>
+                        </svg>
+                    </div>
+                    <h3 class="domains__item__title">
+                        Support
+                    </h3>
+                    <div class="domains__item__details">
+                        <ul>
+                            <li>
+                                Mises à jour de sécurité et de versions
+                            </li>
+                            <li>
+                                Assistance réactive à tarif réduit
+                            </li>
+                            <li>
+                                Maintenance évolutive
+                            </li>
+                            <li>
+                                Hébergement et nom de domaine
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+    </main>
+    <footer class="site__footer section-marker" data-marker="footer" data-text="Nous contacter">
+        <div class="site__footer__contact snipcss0-2-260-261 tether-target-attached-top tether-element-attached-top tether-element-attached-center tether-target-attached-center">
+            <div class="site__footer__contact__mapwrapper snipcss0-3-261-262">
+                <div id="my-map" style="height: 100%;width: 100%; margin-left: auto; margin-right: auto;"></div>
+
+            </div>
+            <div class="site__footer__contact__side snipcss0-3-261-520">
+                <h2 class="site__footer__contact__side__title snipcss0-4-520-521">
+                    Contact
+                </h2>
+                <h3 class="site__footer__contact__side__subtitle snipcss0-4-520-522">
+                    <p class="snipcss0-5-522-523">
+                        Pour nous joindre
+                        <a href="tel:0184804680" class="snipcss0-6-523-524">
+                            01 84 80 46 80
+                        </a>
+                    </p>
+                </h3>
+                <div class="site__footer__contact__item snipcss0-4-520-525" data-lat="48.8273475" data-lng="2.2773098999999775" data-id="0">
+                    <h4 class="site__footer__contact__item__title snipcss0-5-525-526">
+                        takasit Ile-de-France
+                    </h4>
+                    <h3 class="site__footer__contact__item__address snipcss0-5-525-527">
+                        Takasit
+                        <br class="snipcss0-6-527-528"> Le Trèfle
+                        <br class="snipcss0-6-527-529"> 22 Boulevard Gambetta
+                        <br class="snipcss0-6-527-530"> 92130 Issy-les-Moulineaux
+                    </h3>
+                    <span class="site__footer__contact__item__link snipcss0-5-525-531">
+                        <svg enable-background="new 0 0 141.732 141.732" id="Livello_1" version="1.1"
+                            viewBox="0 0 141.732 141.732" xml:space="preserve" xmlns="http://www.w3.org/2000/svg"
+                            xmlns:xlink="http://www.w3.org/1999/xlink" class="snipcss0-6-531-532">
+                            <g id="Livello_110" class="snipcss0-7-532-533">
+                                <path
+                                    d="M95.35,50.645c0,13.98-11.389,25.322-25.438,25.322c-14.051,0-25.438-11.342-25.438-25.322   c0-13.984,11.389-25.322,25.438-25.322C83.964,25.322,95.35,36.66,95.35,50.645 M121.743,50.645C121.743,22.674,98.966,0,70.866,0   C42.768,0,19.989,22.674,19.989,50.645c0,12.298,4.408,23.574,11.733,32.345l39.188,56.283l39.761-57.104   c1.428-1.779,2.736-3.654,3.916-5.625l0.402-0.574h-0.066C119.253,68.516,121.743,59.874,121.743,50.645">
+                                </path>
+                            </g>
+                            <g id="Livello_1_1_" class="snipcss0-7-532-534">
+                            </g>
+                        </svg>
+                        <span class="snipcss0-6-531-535">
+                            Localiser
+                        </span>
+                    </span>
+                </div>
+                <div class="site__footer__contact__item snipcss0-4-520-536" data-lat="44.837789" data-lng="-0.5791799999999512" data-id="1">
+                    <h4 class="site__footer__contact__item__title snipcss0-5-536-537">
+                        takasit Sud-Ouest
+                    </h4>
+                    <h3 class="site__footer__contact__item__address snipcss0-5-536-538">
+                        Takasit
+                        <br class="snipcss0-6-538-539"> Gare de Bordeaux Saint Jean
+                        <br class="snipcss0-6-538-540"> Rue Charles Domercq
+                        <br class="snipcss0-6-538-541"> 33800 Bordeaux
+                    </h3>
+                    <span class="site__footer__contact__item__link snipcss0-5-536-542">
+                        <svg enable-background="new 0 0 141.732 141.732" id="Livello_1" version="1.1"
+                            viewBox="0 0 141.732 141.732" xml:space="preserve" xmlns="http://www.w3.org/2000/svg"
+                            xmlns:xlink="http://www.w3.org/1999/xlink" class="snipcss0-6-542-543">
+                            <g id="Livello_110" class="snipcss0-7-543-544">
+                                <path
+                                    d="M95.35,50.645c0,13.98-11.389,25.322-25.438,25.322c-14.051,0-25.438-11.342-25.438-25.322   c0-13.984,11.389-25.322,25.438-25.322C83.964,25.322,95.35,36.66,95.35,50.645 M121.743,50.645C121.743,22.674,98.966,0,70.866,0   C42.768,0,19.989,22.674,19.989,50.645c0,12.298,4.408,23.574,11.733,32.345l39.188,56.283l39.761-57.104   c1.428-1.779,2.736-3.654,3.916-5.625l0.402-0.574h-0.066C119.253,68.516,121.743,59.874,121.743,50.645">
+                                </path>
+                            </g>
+                            <g id="Livello_1_1_" class="snipcss0-7-543-545">
+                            </g>
+                        </svg>
+                        <span class="snipcss0-6-542-546">
+                            Localiser
+                        </span>
+                    </span>
+                </div>
+            </div>
+        </div>
+        <div class="site__footer__copyright snipcss0-2-260-547">
+            <div class="site__footer__copyright__inner snipcss0-3-547-548">
+                Copyright 2023 © takasit.fr
+                <nav class="menu menu--footer-menu snipcss0-4-548-549">
+                    <ul class="menu__list menu__list--level-0 snipcss0-5-549-550">
+                        <li class="menu__item snipcss0-6-550-551">
+                            <a href="https://takasit.fr/mentions-legales/" class="menu__link snipcss0-7-551-552">
+                                Mentions légales
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="site__footer__copyright__socials snipcss0-3-547-553">
+                <a href="https://linkedin.com/company/takasit" class="site__footer__copyright__socials__item snipcss0-4-553-554">
+                    <svg xmlns="http://www.w3.org/2000/svg" id="Layer_1" version="1.1" viewBox="0 0 259.39999 259" xml:space="preserve" class="snipcss0-5-554-555">
+                        <g id="XMLID_184_" transform="translate(-126.3,-203)" class="snipcss0-6-555-556">
+                            <path
+                                d="m 130.5,289 53.8,0 0,173 -53.8,0 0,-173 z m 27,-86 c 17.2,0 31.2,14 31.2,31.2 0,17.2 -14,31.2 -31.2,31.2 -17.3,0 -31.2,-14 -31.2,-31.2 0,-17.2 13.9,-31.2 31.2,-31.2"
+                                id="XMLID_195_">
+                            </path>
+                            <path
+                                d="m 218.1,289 51.5,0 0,23.7 0.7,0 c 7.2,-13.6 24.7,-27.9 50.9,-27.9 54.4,0 64.5,35.8 64.5,82.4 l 0,94.8 -53.7,0 0,-84.1 c 0,-20.1 -0.3,-45.9 -27.9,-45.9 -28,0 -32.2,21.9 -32.2,44.4 l 0,85.6 -53.7,0 -0.1,-173 0,0 z"
+                                id="XMLID_192_">
+                            </path>
+                        </g>
+                    </svg>
+                </a>
+            </div>
+        </div>
+    </footer>
+    <div class="site__footer__back" style="display: none;">
+        <span>
+        </span>
+    </div>
+
+
+
+</body>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.4/jquery.min.js" integrity="sha512-pumBsjNRGGqkPzKHndZMaAG+bir374sORyzM3uulLV14lN5LyykqNk8eEeUlUkB3U0M4FApyaHraT65ihJhDpQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+<script src="assets/js/script.js"></script>
+<script src="assets/js/header.js"></script>
+<script src="assets/js/index.js"></script>
+<script src="assets/js/footer.js"></script>
+
+<!-- Specific of current page -->
+<script src="https://cdn.leafletjs.com/leaflet-0.7.3/leaflet.js "></script>
+<script defer>
+    addEventListener("DOMContentLoaded", (event) => {
+        // Creating map options
+        var mapOptions = {
+            center: [17.385044, 78.486671],
+            zoom: 10
+        }
+
+        // Creating a map object
+        var map = new L.map("my-map", mapOptions);
+
+        // Creating a Layer object
+        var layer = new L.TileLayer("http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png ");
+
+        // Adding layer to the map
+        map.addLayer(layer);
+    });
+</script>
+
+</html>
