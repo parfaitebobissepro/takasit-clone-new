@@ -1,12 +1,22 @@
-# takasit-clone
+# 🌐 Clone de la page d'accueil de Takasit  
 
-Takasit home page clone using html5 & css3 full responsive.
+Ce projet est une reproduction de la page d'accueil du site [Takasit](https://takasit.fr/), une agence web experte en WordPress.  
+L'objectif est de recréer fidèlement l'interface et les fonctionnalités principales en **HTML, CSS et JavaScript**.  
 
-Page cloned: https://takasit.fr/
+## 📌 Objectifs  
+- 🔹 Reproduire le design et la mise en page du site original  
+- 🔹 Assurer une intégration responsive  
+- 🔹 Améliorer les compétences en intégration et développement front-end  
 
-# Screenshots
+## 🚀 Technologies utilisées  
+- ✅ **HTML5** pour la structure  
+- ✅ **CSS3** (Flexbox, Grid) pour le style  
+- ✅ **JavaScript** pour les interactions dynamiques  
 
-<img src="https://github.com/parfaitebobissepro/takasit-clone/assets/76645491/bf4ff56e-60af-4213-bb52-85bfe3bb8790" alt="alt text" width="400">
-<img src="https://github.com/parfaitebobissepro/takasit-clone/assets/76645491/a2908c6b-8d38-486c-99c4-dac8eebfff6b" alt="alt text" width="400">
-<img src="https://github.com/parfaitebobissepro/takasit-clone/assets/76645491/dff8cb07-f119-412f-b955-8471d4393dc0" alt="alt text" width="400">
-<img src="https://github.com/parfaitebobissepro/takasit-clone/assets/76645491/40a20a2b-dc77-496c-aadb-fa9a8fd8d47f" alt="alt text" width="400">
+## 📷 Aperçu  
+*(Ajoute ici une capture d’écran de ton projet une fois hébergé ou en local)*  
+
+## 🛠️ Installation  
+1. **Cloner le dépôt**  
+   ```bash
+   git clone https://github.com/ton-utilisateur/nom-du-repo.git
